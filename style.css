@@ -1,0 +1,30 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.header {
+    background-image: url('entrance_image.png'); /* Replace with actual image path */
+    background-size: 100% auto; /* Adjusts the width to 100% and height automatically */
+    background-position: center center; /* Centers the image */
+    padding: 100px 50px; /* Increase padding to ensure the entire image is visible */
+    text-align: center;
+    color: white;
+}
+
+.section {
+    padding: 20px;
+    text-align: center;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
