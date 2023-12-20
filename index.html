@@ -1,36 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gyan Sagar School, Noida</title>
     <link rel="stylesheet" href="style.css"> <!-- Link to the external CSS file -->
 </head>
+
 <body>
     <div class="header">
         <h1>Gyan Sagar School, Noida</h1>
         <p>Welcome to a world of holistic education</p>
     </div>
-
+    
     <div class="section">
         <h2>Our History & Founders</h2>
         <p>Established over 35 years ago, founded by Late Dr. Vishnu Sharma and Mrs. Radha Sharma...</p>
     </div>
-
+    
     <div class="section">
         <h2>Mission & Vision</h2>
         <p>Nurturing future leaders with innovative and holistic education...</p>
     </div>
-
+    
     <div class="section">
         <h2>Facilities</h2>
         <p>State-of-the-art classrooms, well-stocked library, advanced labs, sports facilities...</p>
     </div>
-
+    
     <!-- Add more sections based on the brochure content -->
-
+    
     <div class="footer">
         <p>Contact Us: Sector 46, Noida | Phone: 123-456-7890 | Email: info@gyansagar.edu</p>
     </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const e = document.createElement("div"), t = document.createElement("div"), n = document.createElement("iframe"), o = document.createElement("div"), s = document.createElement("div"), r = '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M18 6L6 18" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M6 6L18 18" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>', c = '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M21 15C21 15.5304 20.7893 16.0391 20.4142 16.4142C20.0391 16.7893 19.5304 17 19 17H7L3 21V5C3 4.46957 3.21071 3.96086 3.58579 3.58579C3.96086 3.21071 4.46957 3 5 3H19C19.5304 3 20.0391 3.21071 20.4142 3.58579C20.7893 3.96086 21 4.46957 21 5V15Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+            e.style = "position:fixed;bottom:20px;right:20px;z-index:9999;transition:all 0.5s ease-in-out;", o.style = "cursor:pointer;background-color:#56677c;border-radius:50%;color:white;padding:10px;width:30px;height:30px;font-size:20px;font-weight:bold;display:flex;align-items:center;justify-content:center;box-shadow:0px 30px 60px 0px rgba(63,81,181,0.20);transition:all 0.2s ease-in-out;", o.innerHTML = c.trim(), o.onclick = function () { t.style.display = "block", o.style.display = "none", setTimeout(function () { t.style.opacity = "1" }, 100) }, t.style = "position:relative;width:26rem;height:36rem;background:#FFFFFF;border-radius:10px;overflow:hidden;box-shadow:0px 30px 60px 0px rgba(63,81,181,0.20);display:none;transition:all 0.2s ease-in-out;", n.style = "width:100%;height:100%;border:none;transition:all 0.2s ease-in-out;", n.src = "https://dev-login.aulacube.com/bot/admissions/f337aa38-151f-4240-8a5f-90cb4a2e4604", s.style = "top:10px;right:10px;cursor:pointer;background:rgba(255,255,255,0.20);position:absolute;border-radius:50%;color:white;padding:10px;width:30px;height:30px;font-size:20px;font-weight:bold;display:flex;align-items:center;justify-content:center;box-shadow:0px 30px 60px 0px rgba(63,81,181,0.20);transition:all 0.2s ease-in-out;cursor:pointer;", s.innerHTML = r.trim(), s.onclick = function () { t.style.opacity = "0", setTimeout(function () { t.style.display = "none", o.style.display = "flex" }, 500) }, t.appendChild(n), t.appendChild(s), e.appendChild(t), e.appendChild(o), document.body.appendChild(e)
+        });
+    </script>
+
 </body>
+
 </html>
